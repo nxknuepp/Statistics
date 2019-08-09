@@ -1,0 +1,64 @@
+\cleardoublepage
+\subsection{Introduction to the Normal Distribution}
+\textbf{Learning Goal:} Use a normal probability distribution to estimate probabilities and identify unusual events.
+
+\textbf{Specific Learning Objectives:} 
+\begin{itemize}
+\item Discover some basic properties of the normal curve.
+\item Use the empirical rule to solve probability problems.
+\end{itemize}
+
+Figure \ref{fig:nzeroone} is the histogram of the standard normal distribution. 
+
+It has a mean of 0 and a standard deviation of 1, and is called \emph{normal} because it's a good model for many naturally occurring probability distributions, including body measurements. Using the normal model simplifies many probability calculations, as you will see in the remainder of this module.
+ 
+Changing the mean and standard deviation changes the center and spread of the histogram, but not the shape. 
+
+\begin{figure}[h]
+\centering{}\includegraphics[height=1.5in]{./img/NormalCurve} \caption{Standard Normal Curve}
+\label{fig:nzeroone}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering \includegraphics[width=3in]{./img/norms} \caption{Normal Distribution with Various SDs}
+\label{fig:normSDs}
+\end{figure}
+Figure \ref{fig:normSDs} shows curves of normal mean 0, standard deviation $\frac{1}{2}$ (dotted), normal mean 0, standard deviation 1 (solid), and normal 0, standard deviation $\frac{3}{2}$ (broken).
+
+For a normal distribution the mean is equal to the median.  Thus the mean (as well as the median) is the value that divides the distribution in half. The mean marks the peak. 
+\newpage
+Estimating the standard deviation is harder. The standard deviation corresponds to the point where the normal curve transitions from concave down to concave up as shown below.
+\begin{figure}[h]
+\centering \includegraphics[width=3.5in]{./img/Inflection}\end{figure}
+
+\textbf{The 68\%, 95\%, 99.7\% Empirical Rule:} For any normal curve, the following rule holds:
+\begin{itemize}
+\item About 68\% of the area lies within one standard deviation of the mean.
+\item About 95\% of the area lies within two standard deviations of the mean. 
+\item About 99.7\% of the area lies within three standard deviations of the mean.
+\end{itemize}
+
+\textbf{Using the Empirical Rule: An Example.} IQ scores follow a normal distribution with mean 100 and standard deviation 15.
+\begin{enumerate}
+\item What is the probability that a person has an IQ score greater than 100?\\[.75in]
+\item What is the probability that a person has an IQ score that falls between 85 and 115?\\[.75in]
+\end{enumerate}
+\newpage
+\textbf{Group Work. Practice with the Empirical Rule.} Apply the empirical rule in the following problems, and sketch the curves. 
+\begin{enumerate}
+\item Women's heights have a mean of 165 cm and a standard deviation of 6.5 cm. Typical heights fall within one standard deviation of the mean. 
+\begin{enumerate}
+\item What is the probability that a randomly selected woman has a typical height in this distribution? \\[1.5in]
+\item What are typical heights? (Give a lower and an upper bound to define an interval of typical heights.) \\[1.5in]
+\item A pant manufacturer makes pants that fit women with heights between 145.5 cm and 184.5 cm. What is the probability that a randomly selected woman will be able to wear pants from this manufacturer?  \\[1.5in]
+\item A tall woman with a height of 184.5 cm is nearly 6' 1'' tall. What is the probability that a randomly selected woman is taller than 184.5 cm? \\[1.5in]
+\item A pant manufacturer makes sweat pants in sizes S, M, L. Small pants (S) are designed to fit women with heights less than 152 cm. What is the probability that a randomly selected woman will wear size S? \\[1.5in]
+\end{enumerate}
+\item People often superimpose a normal curve on discrete data by calculating the mean and standard deviation from the data, and using these as the mean and standard deviation for the normal. They then use the normal curve to estimate probabilities for the original data. Sometimes, teachers use this approach to assign letter grades to exams. It is called ``grading on the curve,'' and it works something like this.
+
+The instructor calculates the mean $m$ and standard deviation $s$ of the exam scores. Assuming the exam scores looked bell-shaped, the instructor assigns grades as follows. Students with scores above $m+s$ receive an A. Those with scores between $m$ and $m+s$ receive a B. Those between $m-s$ and $m$ receive a C. Between $m-2s$ and $m-s$ a D. Finally, those whose scores were below $m-2s$ receive an F.
+
+Using this scheme, and assuming the scores themselves appear normal, about what percent of the students will receive each letter grade?
+\end{enumerate}
+

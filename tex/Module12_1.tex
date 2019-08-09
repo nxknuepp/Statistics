@@ -1,0 +1,86 @@
+\subsection{Introduction}
+\textbf{Learning Goal:} Use a probability distribution for a continuous random variable to estimate probabilities and identify unusual events.
+
+\textbf{Specific Learning Objectives.} Introduce continuous random variables as mathematical models to simplify and help analyze discrete random variables.
+
+\textbf{Group Work.} The probability histogram below is for female wrist girths of 260 women in the Body Measurements.txt data in StatCrunch. The bins are of width 1 cm.
+
+\begin{figure}[h]
+\centering{}\includegraphics[width=3in]{./img/Wrist1RelFreq} \caption{Wrist Girth (cm): 260 Females}
+\end{figure}
+
+\begin{table}[H]\centering
+\begin{tabular}{|c|c|}
+\hline
+Wrist Girth (cm)&Count of Women\\
+\hline
+12.5-13.49&8\\
+\hline
+13.5-14.49&50\\
+\hline
+14.5-15.49&122\\
+\hline
+15.5-16.49&69\\
+\hline
+16.5-17.49&8\\
+\hline
+17.5-18.49&3\\
+\hline
+TOTAL&260\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item What is the probability that a woman has a wrist girth between 14.5 and 15.5? Use both the frequency table and the probability histogram to find the answer.\\[.5cm]
+\item If you add the numbers above all of the bins in the histogram, what do you get? Why does this make sense?\\[.5cm]
+\item Are you likely to find a woman with a wrist girth larger than 17 cm? Explain.
+\newpage
+With a quantitative variable like wrist girths, we can redraw the probability histogram with bins of smaller widths. Taking the same data, but with bins of width 0.5 cm gives a new probability histogram.
+
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/WristHalfRelFreq} \caption{Wrist Girth (cm): 260 Females}
+\end{figure}
+\item With this smaller bin width, it is easier to describe the probability distribution.
+\begin{enumerate}
+\item What is its shape?
+\item What is a reasonable estimate for the mean wrist girth?
+\item Which of the following is the more reasonable estimate of the standard deviation? 1 cm or 2 cm?
+\end{enumerate}
+\end{enumerate}
+
+The histogram of wrist girths looks fairly symmetric, and almost bell-shaped. A statistician would say it looks ``approximately normal.''
+
+Statisticians call a perfectly bell-shaped distribution ``normal'' because many distributions in nature have this shape. In particular, distributions of body measurements will tend be ``normal'' in shape.
+
+In the following histogram, StatCrunch has drawn a curve above the preceding probability histogram. This curve is called a normal curve. It is a mathematical model with a complex formula that we will not worry about in this course. The normal curve will have a mean and standard deviation that is close to the mean and standard deviation of the probability distribution represented by the histogram. The area under the curve gives a good estimate of the relative frequencies of the probability distribution.
+
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/WristHalfNormal1} \caption{Wrist Girth (cm): 260 Females with Normal Curve}
+\end{figure}
+
+\textbf{Group Work.}
+\begin{enumerate}
+\item Compare your previous estimate for the mean wrist girth and the standard deviation of wrist girths to the mean and standard deviation of the normal curve shown above. Are they close? 
+\item Use the probability histogram to calculate the probability of a woman having a wrist girth between 14 cm and 16 cm. Shade this area in the probability histogram.
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/norml1} 
+\end{figure}
+\newpage
+\item Now use the area under then normal curve to approximate the probability of a woman having a wrist girth between 14 cm and 16 cm. How close is this approximation to the probability that you calculated in the previous problem? Why does this make sense when you compare the areas representing this probability in the two graphs? 
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/norml2} 
+\end{figure}
+
+\item What is the probability that a woman has a wrist girth that is less than 14 cm? Shade this area in the probability histogram. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/norml3} 
+\end{figure}
+
+\item Now use the area under then normal curve to approximate the probability of a woman having a girth that is less than 14 cm. This approximation is larger than the relative frequency estimate in the previous problem. Why does this make sense when you look at area under the normal curve in the previous problem?
+\begin{figure}[H]
+\centering{}\includegraphics[width=3in]{./img/norml4} 
+\end{figure}
+
+\end{enumerate}
+

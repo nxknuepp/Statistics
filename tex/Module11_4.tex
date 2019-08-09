@@ -1,0 +1,65 @@
+\cleardoublepage
+\subsection{Random Variables, Probability Histograms, Mean and Standard Deviation}
+\textbf{Learning Goal:} Use probability distributions for discrete random variables to estimate probabilities and identify unusual events.
+
+\textbf{Specific Learning Objectives:}
+\begin{itemize}
+\item Describe random variables with tables and probability histograms.
+\item Estimate the mean and standard deviation of a random variable from its histogram.
+\end{itemize}
+
+In our previous discusssion of probability distributions, we did not distinguish between probability distributions for categorical and quantitative variables. For example, we looked at the probability that a male sits in the front, which involves categorical variables. We also looked at the probability of finding 3 eggs in an owl nest, which involves a quantitative variable.
+
+When the outcomes are quantitative, we call the variable a \textbf{random variable}. 
+
+\textbf{An Example.} Golden State Warriors' player Steph Curry is known for shooting three-point field goals. In the 2015-2016 season, including preseason and playoff games, he played in 96 games and scored a record 477 three-pointers. 
+
+If we take our random variable to be the number of three-pointers scored by Steph in a game, we get the following table and probability histogram.
+\begin{table}[h]\centering{}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+3-pointers&1&2&3&4&5&6&7&8&9&10&11&12\\
+\hline
+Probability&0.062&0.083&0.177&0.135&0.167&0.104&0.104&0.094&0.031&0.021&0.01&0.01\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\centering{}\includegraphics[height=3in]{./img/StephHistRelFreq} 
+\end{figure}
+
+The mean of a random variable, as in Unit 2, is a measure of center, and can be estimated by looking at the histogram---it's the balancing point. The standard deviation is a measure of how far typical values are from the mean. 
+
+\textbf{Typical values} are those outcomes between \textbf{one} standard deviation below the mean and \textbf{one} standard deviation above the mean.
+
+\textbf{Unusual values} are outcomes more than \textbf{two} standard deviations above or below the mean.
+\newpage
+For Steph, the mean is 4.97 three-pointers per game, with a standard deviation of 2.42 three-pointers. The histogram below is the same histogram as before with the mean line (solid). The broken lines appear at one standard deviation below the mean, and at one standard deviation above the mean. 
+\begin{figure}[h]
+\centering{}\includegraphics[height=3in]{./img/StephHistRelFreqMeanSD}
+\end{figure}
+\begin{enumerate}
+\item If you picked a game at random from the Warriors season, what is the probability that Steph Curry made 11 three-pointers? Is this unusual?\\[.5cm]
+\item How likely is it that he made fewer than 3 three-pointers? Is this unusual?\\[.5cm]
+\item Typical values fall within one standard deviation of the mean.
+\begin{enumerate}
+\item Give an interval to describe Steph's typical performance in a game.\\[.5cm]
+\item What is the probability that Steph hits within this interval during a game?
+\end{enumerate}
+\end{enumerate}
+\newpage
+\textbf{Male Knee Diameters.} The probability histogram below shows knee diameters for the 247 males in the BodyMeasurements.txt data set. The mean is 19.56 cm with a standard deviation of 1.07 cm. The solid line shows the mean and the broken lines on either side of the mean mark 1 and 2 standard deviations above and below the mean. Use the histogram to answer these questions. 
+\begin{figure}[h]
+\centering{}\includegraphics[height=4.5in]{./img/KneeDiam}
+\end{figure}
+
+\begin{enumerate}
+\item If you pick a male at random, what is the probability he has a knee diameter of 18 cm?\\[.5cm]
+\item Is a knee diameter of 17 cm unusual? How do you know?\\[.5cm]
+\item Find a knee diameter that is neither typical nor unusual. How do you know?\\[.5cm]
+\item Give an interval to describe a typical knee diameter. Explain how you chose this interval.\\[.5cm]
+\item If you pick a male at random, what is the probability his knee diameter is bigger than 17 cm.\\[.5cm]
+\end{enumerate}
+
+
